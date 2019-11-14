@@ -26,3 +26,8 @@ APPSSDK_DIR ?= ../apps-sdk
 
 #Include the SDK makefile. It'll take care of the rest.
 include $(APPSSDK_DIR)/sdk.mk
+
+
+
+
+# find . -type f -iname *.c -execdir riscv64-unknown-elf-gcc {} \;
