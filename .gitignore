@@ -2,3 +2,4 @@ build/
 *.map
 *.elf
 *.sym
+*.exe
