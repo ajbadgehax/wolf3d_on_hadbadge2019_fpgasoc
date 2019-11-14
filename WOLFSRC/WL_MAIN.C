@@ -1,6 +1,6 @@
 // WL_MAIN.C
 
-#include <conio.h>
+#include <conio.h>		// Replace with ncurses?
 #include "WL_DEF.H"
 #pragma hdrstop
 

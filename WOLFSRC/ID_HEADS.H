@@ -1,20 +1,41 @@
 // ID_GLOB.H
 
 
-#include <ALLOC.H>
-#include <CTYPE.H>
-#include <DOS.H>
-#include <ERRNO.H>
-#include <FCNTL.H>
-#include <IO.H>
-#include <MEM.H>
-#include <PROCESS.H>
-#include <STDIO.H>
-#include <STDLIB.H>
-#include <STRING.H>
-#include <SYS\STAT.H>
-#include <VALUES.H>
-#include <DIR.H>
+// #include <ALLOC.H> 		// Memory management. Included in stdlib.h
+
+// #include <CTYPE.H>
+#include <ctype.h>
+
+// #include <DOS.H>			// time / sound
+
+// #include <ERRNO.H>
+#include <errno.h>
+
+// #include <FCNTL.H>
+#include <fcntl.h>
+
+// #include <IO.H>			// look into dirent.h (navigating directories, i guess?)
+
+// #include <MEM.H>			// all functions included in string.h except setmem()
+
+// #include <PROCESS.H>		// working with threads and proceses
+
+// #include <STDIO.H>
+#include <stdio.h>
+
+// #include <STDLIB.H>
+#include <stdlib.h>
+
+// #include <STRING.H>
+#include <string.h>
+
+// #include <SYS\STAT.H>	// working with directories and files
+
+// #include <VALUES.H>
+#include <float.h>
+
+// #include <DIR.H>			// working with directories
+
 #define __ID_GLOB__
 #include "VERSION.H"
 
